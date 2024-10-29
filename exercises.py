@@ -23,7 +23,6 @@ assert convertToCelsius(convertToFahrenheit(42)) == 42.00000000000001
 
 print(convertToFahrenheit(43))
 
-# Set decimal precision
 context = getcontext()
 getcontext().prec = 3
 
